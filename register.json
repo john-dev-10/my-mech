@@ -1,0 +1,52 @@
+{
+  "Register": [
+    {
+      "id": "76ed",
+      "userName": "john jerish",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "id": "f297",
+      "userName": "john jeffrey",
+      "password": "54321",
+      "confirmPassword": "54321"
+    },
+    {
+      "id": "79a6",
+      "userName": "john jeffrey",
+      "password": "54321",
+      "confirmPassword": "54321"
+    },
+    {
+      "id": "584d",
+      "userName": "alen",
+      "password": "6789",
+      "confirmPassword": "6789"
+    },
+    {
+      "id": "4075",
+      "userName": "sanjay",
+      "password": "272727",
+      "confirmPassword": "272727"
+    },
+    {
+      "id": "bce9",
+      "userName": "indhuja",
+      "password": "indhu@123",
+      "confirmPassword": "indhu@123"
+    },
+    {
+      "id": "281c",
+      "userName": "j",
+      "password": "j",
+      "confirmPassword": "j"
+    },
+    {
+      "id": "4c66",
+      "userName": "john",
+      "password": "john",
+      "confirmPassword": "john"
+    }
+  ]
+}

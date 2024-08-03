@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Outfit:wght@100..900&display=swap');
+
+.heading{
+   
+    font-family: jaro;
+  margin-left: 50px;
+  color: blue;
+} 
+ .navbar-brand{
+  color:gray;
+  font-size: 50px;
+} 
+ .signIn{
+  background:transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid black;
+  padding:10px 30px;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: 0.3s;
+}
+
+.dot{
+  position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: black;
+    border-radius: 5px;
+    top: 67px;
+    left:625px
+}
+.signIn:hover{
+  transform:scale(1.05);
+  background-color:black;
+  color:white
+}
+.template_Container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ } 
+
+ .food-item-counter{
+  position:absolute;
+  bottom:15px;
+  right:15px;
+  display:flex;
+  align-items: centre;
+  gap:10px;
+  padding:6px;
+  border-radius: 50px;
+  background-color: black;
+ 
+} 
+
+
+ .food-item{
+   
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #00000015;
+  transition: 0.3s;
+  animation: fadeIn 1s;
+  width:25%;
+  margin-top: 5%;
+} 
+ .food-item-image{
+  width:100%;
+  border-radius: 15px 15px 0px 0px;
+
+} 
+.food-item-info{
+  padding:20px;
+  background-color:grey;
+} 
+ .food-item-name-rating{
+  display:flex;
+  justify-content: space-between;
+  align-items: centre;
+  margin-bottom: 10px;
+ 
+} 
+ .food-item-name-rating p{
+  font-size: 20px;
+  font-weight: 500;
+}  
+.food-item-name-rating img{
+  width:70px;
+}
+.food-item-desc{
+  color:black;
+  font-size: 12px;
+  
+}
+.food-item-price{
+  color:black;
+  font-size: 22px;
+  font-weight: 500;
+  margin:10px,0px;
+}
+.food-item-img-container{
+  position:relative
+}
+
+.food-item-img-container .add{
+  width:35px;
+  position:absolute;
+  bottom:15px;
+  right:15px;
+  cursor:pointer;
+  border-radius: 50%;
+
+}
+.food-item-counter{
+  position:absolute;
+  bottom:15px;
+  right:15px;
+  display:flex;
+  align-items: centre;
+  gap:10px;
+  padding:6px;
+  border-radius: 50px;
+  background-color: black;
+}
+.food-item-counter img{
+  width:30px;
+}
+
+
+.navbar-search{
+  display: flex;
+  align-items: center;
+}
